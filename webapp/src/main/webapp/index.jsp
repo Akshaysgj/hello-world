@@ -1,489 +1,645 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
-<!--<![endif]-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <![endif]-->
-    <title>AWESOME BOOTSTRAP TEMPLATE - EDWIKI </title>
-    <!--REQUIRED STYLE SHEETS-->
-    <!-- BOOTSTRAP CORE STYLE CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONTAWESOME STYLE CSS -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-    <!--ANIMATED FONTAWESOME STYLE CSS -->
-    <link href="assets/css/font-awesome-animation.css" rel="stylesheet" />
-    <!-- VEGAS STYLE CSS -->
-    <link href="assets/scripts/vegas/jquery.vegas.min.css" rel="stylesheet" />
-    <!-- SIDE MENU STYLE CSS -->
-    <link href="assets/css/component.css" rel="stylesheet" />
-    <!-- CUSTOM STYLE CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <!-- GOOGLE FONT -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DevOpsRealtime</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Rajdhani:400,500,700,600' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<link href="css/jquery.bxslider.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.slider1').bxSlider({
+	auto: true,
+    slideWidth: 352,
+    minSlides: 1,
+    maxSlides: 3,
+    slideMargin: 20,
+    /*moveSlides: 1*/
+  });
+});
+</script>
 </head>
-<body class="cbp-spmenu-push">
 
-    <!-- MAIN HEADING-->
-    <div class="for-full-back color-bg-one" id="main-sec">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1 class="pad-adjust"><i class="fa fa-plus faa-pulse animated"></i>EDWIKI</h1>
-                </div>
-            </div>
-        </div>
+<body>
+
+<div class="gline">
+<div class="wrapper">
+
+<div class="tn">
+<ul>
+<li><img src="images/call.gif" class="pad" /> +91 9999999999</li>
+<li><img src="images/mail.gif" class="pad" /> <a href="mailto:support@DevOpsRealtime.com">support@DevOpsRealtime.com</a></li>
+</ul>
+</div>
+
+<div class="fbar">
+<ul>
+<li><a href="https://www.facebook.com/DevOpsRealtimetech/" target="_blank" class="fb"></a></li>
+<li><a href="https://twitter.com/DevOpsRealtimetech" target="_blank" class="tw"></a></li>
+<li><a href="https://www.linkedin.com/in/DevOpsRealtimetech" target="_blank" class="in"></a></li>
+<li><a href="https://www.youtube.com/DevOpsRealtimetechnology" target="_blank" class="yt"></a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="clear"></div>
+
+<div class="wrapper">
+<div class="logo"><a href="index.html"><img src="images/DevOpsRealtime.png" width="80" height="80" alt="DevOpsRealtime Technology India Pvt Ltd." title="DevOpsRealtime Technology India Pvt Ltd." /></a></div>
+
+
+<nav id="booNavigation" class="booNavigation">
+<ul>
+<li class="navItem"> <a href="index.html" title="First Item">HOME</a></li>
+<li class="navItem"> <a href="#" title="Second Item">COMPANY</a>
+<ul class="navContent">
+<li>
+<ul>
+<li><a href="company_aboutus.html">About Us</a>
+<li/>
+</ul>
+</li>
+<li>
+<ul>
+<li><a href="company_testimonials.html">Testimonials</a>
+<li/>
+</ul>
+</li>
+</ul>
+</li>
+<li class="navItem"> <a href="#" title="Third Item">SERVICES</a>
+<ul class="navContent">
+<li>
+<ul>
+<li><a href="services_application-management.html">Application Management</a></li>
+<li><a href="services_software-testing.html">Software Testing</a></li>
+<li><a href="services_application-migration.html">Application Migration</a></li>
+<li><a href="services_e-learning.html">E-learning</a></li>
+<li><a href="services_web-presence-enhancement.html">Web presence Enhancement</a></li>
+</ul>
+</li>
+
+<li>
+<ul>
+<li><a href="services_business-intelligence.html">Business Intelligence</a></li>
+<li><a href="services_infrastructure-management.html">Infrastructure Management</a></li>
+<li><a href="services_process-re-engineering-consulting.html">Process Re-engineering Consulting</a></li>
+<li><a href="services_program-management.html">Program Management</a></li>
+<li><a href="services_it-infrastructure.html">IT infrastructure</a></li>
+</ul>
+</li>
+
+<li>
+<ul>
+<li><a href="services_quality-consulting-services.html">Quality Consulting Services</a></li>
+<li><a href="services_technical-staffing.html">Technical Staffing</a></li>
+<li><a href="services_build-operate-transfer.html">Build Operate Transfer</a></li>
+<li><a href="services_it-architecture-technology.html">IT Architecture & Technology</a></li>
+<li><a href="services_business-process-management.html">Business Process Management</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="navItem"> <a href="#" title="Third Item">TECHNOLOGIES</a>
+<ul class="navContent">
+<li>
+<ul>
+<li><a href="technologies_mobile-platforms.html">Mobile Platforms</a></li>
+<li><a href="technologies_programming-platforms.html">Programming Platforms</a></li>
+<li><a href="technologies_content-management-system-n-crm.html">Content Management System & CRM</a></li>
+<li><a href="technologies_database.html">Database</a></li>
+</ul>
+</li>
+
+<li>
+<ul>
+<li><a href="technologies_middleware.html">MiddleWare</a></li>
+<li><a href="technologies_applications-n-web-servers.html">Applications & Web Servers</a></li>
+<li><a href="technologies_user-interface.html">User Interface</a></li>
+<li><a href="technologies_cloud-computing-n-search-framework.html">Cloud Computing & Search Framework</a></li>
+</ul>
+</li>
+
+<li>
+<ul>
+<li><a href="technologies_testing-n-performance-tools.html">Testing & Performance tools</a></li>
+<li><a href="technologies_web-analytics-n-social-platforms.html">Web Analytics & Social Platforms</a></li>
+<li><a href="technologies_development-tools.html">Development Tools</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+
+<li class="navItem"> <a href="#" title="Third Item">SOLUTIONS</a>
+<ul class="navContent">
+<li>
+<ul>
+<li><a href="solutions_technology-n-virtualization.html">Technology & Virtualization</a></li>
+<li><a href="solutions_networking.html">Networking</a></li>
+</ul>
+</li>
+
+<li>
+<ul>
+<li><a href="solutions_cloud.html">Cloud</a></li>
+<li><a href="solutions_data-protection-n-security.html">Data protection & Security</a></li>
+</ul>
+</li>
+
+<li>
+<ul>
+<li><a href="solutions_unified-communications-n-collaboration.html">Unified Communications & Collaboration (UCC)</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+
+<li class="navItem"> <a href="#" title="Third Item">INDUSTRY VERTICALS</a>
+<ul class="navContent">
+<li>
+<ul>
+<li><a href="industry-verticals_automobile.html">Automobile</a></li>
+<li><a href="industry-verticals_e-learning.html">E-learning</a></li>
+<li><a href="industry-verticals_consultancy.html">Consultancy</a></li>
+<li><a href="industry-verticals_social-networking.html">Social networking</a></li>
+</ul>
+</li>
+
+
+<li>
+<ul>
+<li><a href="industry-verticals_retail.html">Retail</a></li>
+<li><a href="industry-verticals_travel-n-hospitality.html">Travel and Hospitality</a></li>
+<li><a href="industry-verticals_manufacturing.html">Manufacturing</a></li>
+<li><a href="industry-verticals_finance.html">Finance</a></li>
+</ul>
+</li>
+
+
+<li>
+<ul>
+<li><a href="industry-verticals_health-n-Fitness.html">Health and Fitness</a></li>
+<li><a href="industry-verticals_education.html">Education</a></li>
+<li><a href="industry-verticals_others.html">Others</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+
+<li class="navItem"> <a href="contactus.html" title="Third Item">CONTACT US</a></li>
+
+
+</ul>
+</nav>
+
+<!-- Scripts for jQuery and the plugin --> 
+<script src="js/booNavigation.js"></script> 
+<script>
+        (function() {
+
+            /**
+             * This is the call we have to do to execute
+             * the plugin giving a custom params
+             */
+            $('#booNavigation').booNavigation({
+                slideSpeed: 400
+            });
+
+        })();
+
+        </script>
+
+
+<div class="clear"></div>
+</div>
+
+<div class="header">
+<iframe name="Frame1" src="header.html" style="max-width:100%; width:1600px; height: 411px;" marginwidth="0" marginheight="0" vspace="0" hspace="0" frameborder="0" scrolling="no">
+</iframe>
+</div>
+
+<div class="clear"></div>
+
+<div class="punch">
+<div class="wrapper">
+<div class="punch-area">The fastest way to grow your business with the leader in Technology.
+<br />
+<span class="punch2">Check out our options and features included.</span></div>
+
+<div class="getb"><a href="company_aboutus.html" class="get"></a></div>
+</div>
+</div>
+
+<div class="clear"></div>
+
+
+<div class="mbg">
+<div class="wrapper">
+<div class="icns">
+<ul>
+
+<li>
+<div class="icns1"> <a href="#"><img src="images/icn1.png" width="126" height="126" /></a>
+<div class="icnh">ABOUT US</div>
+<div class="icn-txt"><a href="company_aboutus.html">DevOpsRealtime Communication Services brings the most advanced and latest technologies running under the most impressive methodologies, competent...</a></div>
+</div>
+</li>
+
+
+<li>
+<div class="icns1"> <a href="#"><img src="images/icn2.png" width="126" height="126" /></a>
+<div class="icnh">UPDATES</div>
+<div class="icn-txt"><a href="#">Lorem ipsum dolor sit amet, ctetur adipiscing elit, sed do eiusmtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</a></div>
+</div>
+</li>
+
+
+<li>
+<div class="icns1"> <a href="#"><img src="images/icn3.png" width="126" height="126" /></a>
+<div class="icnh">Solutions</div>
+<div class="icn-txt">
+<a href="solutions_technology-n-virtualization.html">Technology & Virtualization</a>,
+<a href="solutions_networking.html">Networking</a>,
+<a href="solutions_cloud.html">Cloud</a>,
+<a href="solutions_data-protection-n-security.html">Data protection & Security</a>,
+<a href="solutions_unified-communications-n-collaboration.html">Unified Communications & Collaboration (UCC)</a>
+</div>
+</div>
+</li>
+
+
+<li>
+<div class="icns1"> <a href="#"><img src="images/icn4.png" width="126" height="126" /></a>
+<div class="icnh">FIND US</div>
+<div class="icn-txt"><a href="contactus.html">
+19th Floor, Building 5, Tower C,
+<br />
+DLF Epitome, Cyber City,<br />
+DLF Phase – 2,
+<br />
+Gurgaon – 122002
+</a></div>
+</div>
+</li>
+
+
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="clear"></div>
+
+<div class="strp"></div>
+
+<div class="clear"></div>
+
+
+<div class="wrapper">
+<div class="bhead">Services we offer</div>
+
+<div class="ser-left">
+
+<a href="services_application-management.html"><img src="images/s2.png" width="123" class="ser" /></a>
+<div class="shead">Application Management</div>
+<div class="stxt"><a href="services_application-management.html">Application management is an imperative discipline within IT Service management that focuses on...</a></div>
+
+
+<a href="services_software-testing.html"><img src="images/s4.png" width="123" class="ser" /></a>
+<div class="shead">Software Testing</div>
+<div class="stxt"><a href="services_software-testing.html">DevOpsRealtime's Offshore Software Testing services provides a level of confidence in the software...</a></div>
+
+
+<a href="services_application-migration.html"><img src="images/s5.png" width="123" class="ser" /></a>
+<div class="shead">Application Migration</div>
+<div class="stxt"><a href="services_application-migration.html">With ever changing competitive business landscape, it’s always a challenge before...</a></div>
+
+
+</div>
+
+
+
+<div class="ser-right">
+
+
+<a href="services_e-learning.html"><img src="images/s3.png" width="123" class="ser" /></a>
+<div class="shead">E-learning</div>
+<div class="stxt"><a href="services_e-learning.html">According to Cisco,"E-learning is not just e-training. E-learning is the overarching umbrella that...</a></div>
+
+
+<a href="services_web-presence-enhancement.html"><img src="images/s6.png" width="123" class="ser" /></a>
+<div class="shead">Web presence Enhancement</div>
+<div class="stxt"><a href="services_web-presence-enhancement.html">Business without web presence is like living in one end of the globe without any communication with...</a></div>
+
+
+<a href="services_business-intelligence.html"><img src="images/s1.png" width="123" class="ser" /></a>
+<div class="shead">Business Intelligence</div>
+<div class="stxt"><a href="services_business-intelligence.html">A better understanding of your customers will help you plan actions to increase their satisfaction...</a></div>
+
+</div>
+
+<div class="clear"></div>
+
+<div class="more"><a href="services_application-management.html">MORE</a></div>
+
+</div>
+
+
+<div class="clear"></div>
+
+<div class="tbg">
+<div class="tech">
+<div class="bhead2">Technologies</div>
+
+<div class="clear"></div>
+
+<ul>
+
+<li>
+<div class="tbx">
+<img src="images/t1.png" width="98" height="72" class="tbx2" />
+<div class="th1">Mobile Platforms</div>
+<div class="ttxt"><a href="technologies_mobile-platforms.html">Like an operating system in a PC, mobile phones or other handheld devices also run on operating systems, known as mobile platforms...</a></div>
+</div>
+</li>
+
+
+<li>
+<div class="tbx">
+<img src="images/t2.png" width="98" height="72" class="tbx2" />
+<div class="th1">Programming Platforms</div>
+<div class="ttxt"><a href="technologies_programming-platforms.html">There has been a big surge of new programming requirements for programmers with the massive expansion and development in smartphones...</a></div>
+</div>
+</li>
+
+
+<li>
+<div class="tbx">
+<img src="images/t3.png" width="98" height="72" class="tbx2" />
+<div class="th1">Content Mgmt System & CRM</div>
+<div class="ttxt"><a href="technologies_content-management-system-n-crm.html">Content Management System or CMS can be of several different types. The CMS when used in the context of websites, means a way to... </a></div>
+</div>
+</li>
+
+</ul>
+
+<div class="clear"></div>
+
+<ul>
+
+<li>
+<div class="tbx">
+<img src="images/t4.png" width="98" height="72" class="tbx2" />
+<div class="th1">Database</div>
+<div class="ttxt"><a href="technologies_database.html">An organised collection of data is known as a database. Data can be of many types and should serve as a relevant piece of information...</a></div>
+</div>
+</li>
+
+
+<li>
+<div class="tbx">
+<img src="images/t5.png" width="98" height="72" class="tbx2" />
+<div class="th1">MiddleWare</div>
+<div class="ttxt"><a href="technologies_middleware.html">Middleware is used commonly to refer to software that help in the management of data and communication in distributed applications... </a></div>
+</div>
+</li>
+
+
+<li>
+<div class="tbx">
+<img src="images/t6.png" width="98" height="72" class="tbx2" />
+<div class="th1">Applications & Web Servers</div>
+<div class="ttxt"><a href="technologies_applications-n-web-servers.html">Application and web servers are one of the most important aspects of the web presence of any company on the internet... </a></div>
+</div>
+</li>
+
+</ul>
+
+<div class="clear"></div>
+
+<ul>
+
+<li>
+<div class="tbx">
+<img src="images/t7.png" width="98" height="72" class="tbx2" />
+<div class="th1">User Interface</div>
+<div class="ttxt"><a href="technologies_user-interface.html">User Interface, also referred to as UI in popular terms, may be specified as the interactive space between machines and humans...</a></div>
+</div>
+</li>
+
+
+<li>
+<div class="tbx">
+<img src="images/t8.png" width="98" height="72" class="tbx2" />
+<div class="th1">Cloud Comp. & S. Framework</div>
+<div class="ttxt"><a href="technologies_cloud-computing-n-search-framework.html">A variety of different types of computing concepts that involve a large number of computers connected through a real-time... </a></div>
+</div>
+</li>
+
+
+<li>
+<div class="tbx">
+<img src="images/t9.png" width="98" height="72" class="tbx2" />
+<div class="th1">Testing & Performance tools</div>
+<div class="ttxt"><a href="technologies_testing-n-performance-tools.html">There are many Testing and performing tools as well as testing and performance tools platforms that are available. Some of these are free...</a></div>
+</div>
+</li>
+
+</ul>
+
+<div class="clear"></div>
+
+</div>
+<div class="more2"><a href="technologies_mobile-platforms.html">MORE</a></div>
+</div>
+
+<div class="clear"></div>
+
+<div class="strp"></div>
+
+<div class="clear"></div>
+
+<div class="test">
+<div class="wrapper">
+<div class="thead">Testimonials</div>
+<div class="thead2">Happy clients about us</div>
+<div class="clear"></div>
+
+<div class="slider1">
+  <div class="slide">
+    <div class="thumb">
+     <a href="company_testimonials.html#a">I appreciate the support. I have worked with more outsourcing companies than I can count, and we never get the same quality of service with any other company that we get with all of you there. Keep up the good work. </a>   
+     <figure><img src="images/test1.jpg"></figure>
+     <figcaption>MICHAEL ANDREWS</figcaption>
     </div>
-    <!--END MAIN HEADING-->
-    <!--LEFT SLIDE MENU-->
-    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
-        <h3>EDWIKI</h3>
-        <a href="#">Call: +9999999999</a>
-        <a href="#main-sec"><i class="fa fa-home fa-3x"></i>HOME</a>
-        <a href="#about-sec"><i class="fa fa-microphone fa-3x"></i>ABOUT</a>
-        <a href="#price-sec"><i class="fa fa-dollar fa-3x"></i>PRICING</a>
-        <a href="#services-sec"><i class="fa fa-rocket fa-3x"></i>SERVICES</a>
-        <a href="#contact-sec"><i class="fa fa-globe fa-3x"></i>CONTACT</a>
-    </nav>
-
-    <div class="row" id="icon-left">
-        <div class="col-md-12">
-            <i id="showLeftPush" class="fa fa-cut fa-4x faa-horizontal animated "></i>
-        </div>
+  </div>
+  <div class="slide">
+    <div class="thumb">
+     <a href="company_testimonials.html#b">Here with we are certifying that we are satisfied with support along with implementation procedure and project execution work of Silver Touch Technologies Ltd., their team member & seniors.</a>   
+     <figure><img src="images/test1.jpg"></figure>
+     <figcaption>Mahendra Patel</figcaption>
     </div>
-    <!--END LEFT SLIDE MENU-->
-
-    <!--RIGHT SLIDE MENU-->
-    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
-        <h3>SOCIAL</h3>
-        <a href="#">MY SOCIAL PRESENCE</a>
-        <a href="#"><i class="fa fa-facebook fa-3x"></i>Facebook</a>
-        <a href="#"><i class="fa fa-twitter fa-3x"></i>Twitter</a>
-        <a href="#"><i class="fa fa-linkedin fa-3x"></i>Linked In</a>
-        <a href="#"><i class="fa fa-google-plus fa-3x"></i>Google Plus</a>
-    </nav>
-
-    <div class="row" id="icon-right">
-        <div class="col-md-12">
-            <i id="showRightPush" class="fa fa-paperclip fa-4x "></i>
-        </div>
+  </div>
+  <div class="slide">
+    <div class="thumb">
+     <a href="company_testimonials.html#c">I would like to congratulate everyone for your outstanding efforts to get this web page up and running. This site is very unique for the Australia dance market and we have been given great praise from our Australian customers...</a>     <figure><img src="images/test1.jpg"></figure>
+     <figcaption>--</figcaption>
     </div>
-    <!--END RIGHT SLIDE MENU-->
-
-    <!--HOME SECTION-->
-    <div class="container" id="home">
-        <div class="row text-center">
-            <div class="col-md-12">
-                <span class="head-main">Welcome to EDWIKI</span>
-                <h2 class="head-sub-main">Sample Website</h2>
-                <h3 class="head-last">Explore Learning</h3>
-                <a href="#about-sec" class="btn btn-danger btn-lg head-btn-one">EXPLORE DEVOPS</a> &nbsp;  <a href="#about-sec" class="btn btn-primary btn-lg">MODEL THEME</a>
-            </div>
-        </div>
+  </div>
+  <div class="slide">
+    <div class="thumb">
+     <a href="company_testimonials.html#d">I am eager to sign off on this project and move onto the next challenge of integrating this site with our inventory management software. I look forward to working with all of you for this...</a>   
+     <figure><img src="images/test1.jpg"></figure>
+     <figcaption>--</figcaption>
     </div>
-    <!--END HOME SECTION-->
-
-    <!--ABOUT SECTION-->
-    <section class="for-full-back color-bg-one" id="about-sec">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1><i class="fa fa-microphone faa-pulse animated  "></i>About</h1>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-8 col-md-offset-2 ">
-                        <h4>
-                            <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </strong>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="for-full-back color-white" id="about-team">
-        <div class="container">
-            <div class="row text-center g-pad-bottom">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h3>OUR TEAM PROFILE</h3>
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.                          
-                    </h4>
-                </div>
-
-            </div>
-            <div class="row text-center g-pad-bottom">
-                <div class="col-md-12 ">
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="team-member">
-                            <img src="assets/img/team/1.png" alt="">
-                            <h3><strong>ANDREWA ALEX </strong></h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="team-member">
-                            <img src="assets/img/team/2.png" alt="">
-                            <h3><strong>ROMILIA JHON </strong></h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="team-member">
-                            <img src="assets/img/team/3.png" alt="">
-                            <h3><strong>TINA WAY LEU </strong></h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="team-member">
-                            <img src="assets/img/team/4.png" alt="">
-                            <h3><strong>JHON DEO ALEX </strong></h3>
-                        </div>
-                    </div>
-
-
-
-
-
-                </div>
-            </div>
-            <div class="row g-pad-bottom">
-                <div class="col-md-6">
-                    <h3>Lorem ipsum  dolor sit amet</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                           Lorem ipsum dolor sit amet, consectetur nec nisl odio
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <h3>Lorem ipsum  dolor sit amet</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                           Lorem ipsum dolor sit amet, consectetur nec nisl odio
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!--END ABOUT SECTION-->
-
-    <!--PRICE SECTION-->
-    <section id="price-sec">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12 ">
-                    <div class="col-md-3">
-                        <ul class="plan">
-                            <li class="plan-head c-b">BASIC PLAN</li>
-                            <li class="main-price">$99 only</li>
-                            <li><strong>12</strong> Accounts</li>
-                            <li><strong>52</strong> Emails</li>
-                            <li><strong>50 GB</strong> Space</li>
-                            <li><strong>Free</strong> Support</li>
-                            <li class="bottom">
-                                <a href="#" class="btn btn-danger">Read More</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="plan">
-                            <li class="plan-head">SIMPLE PLAN</li>
-                            <li class="main-price">$199 only</li>
-                            <li><strong>12</strong> Accounts</li>
-                            <li><strong>52</strong> Emails</li>
-                            <li><strong>50 GB</strong> Space</li>
-                            <li><strong>Free</strong> Support</li>
-                            <li class="bottom">
-                                <a href="#" class="btn btn-primary">Read More</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="plan">
-                            <li class="plan-head c-v">VALUE PLAN</li>
-                            <li class="main-price">$299 only</li>
-                            <li><strong>12</strong> Accounts</li>
-                            <li><strong>52</strong> Emails</li>
-                            <li><strong>50 GB</strong> Space</li>
-                            <li><strong>Free</strong> Support</li>
-                            <li class="bottom">
-                                <a href="#" class="btn btn-success">Read More</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="plan">
-                            <li class="plan-head c-a">ADVANCE PLAN</li>
-                            <li class="main-price">$399 only</li>
-                            <li><strong>12</strong> Accounts</li>
-                            <li><strong>52</strong> Emails</li>
-                            <li><strong>50 GB</strong> Space</li>
-                            <li><strong>Free</strong> Support</li>
-                            <li class="bottom">
-                                <a href="#" class="btn btn-default">Read More</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-    <!-- END PRICE SECTION-->
-
-    <!--SERVICES SECTION-->
-    <section class="for-full-back color-bg-one" id="services-sec">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1><i class="fa fa-rocket faa-pulse animated  "></i>Services</h1>
-
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-8 col-md-offset-2 ">
-                        <h4>
-                            <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </strong>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="for-full-back color-white " id="services-inner">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <div class="col-md-3 ">
-                        <div class="service-div">
-                            <i class="fa fa-desktop fa-5x faa-vertical animated"></i>
-                            <h4>Sure Quique Menu </h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="service-div">
-                            <i class="fa fa-flask fa-5x faa-ring animated"></i>
-                            <h4>100% Free Responsive </h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="service-div">
-                            <i class="fa fa-plus fa-5x faa-float animated"></i>
-                            <h4>Well Documented </h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="service-div">
-                            <i class="fa fa-credit-card fa-5x faa-shake animated"></i>
-                            <h4>Clean & Customizable </h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--END SERVICES SECTION-->
-    <!--STATS SECTION-->
-    <section>
-        <div class="container">
-            <div class="row ">
-                <div class="col-md-3 ">
-                    <div class="stats-div">
-                        <h3>5000+ </h3>
-                        <h4>Projects</h4>
-                    </div>
-                </div>
-
-
-                <div class="col-md-3 ">
-                    <div class="stats-div">
-                        <h3>205+ </h3>
-                        <h4>Countries</h4>
-                    </div>
-
-                </div>
-                <div class="col-md-3 ">
-
-                    <div class="stats-div">
-                        <h3>1300+ </h3>
-                        <h4>Offices</h4>
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="stats-div">
-                        <h3>2400+ </h3>
-                        <h4>Clients</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--END STATS SECTION-->
-
-    <!--CONTACT SECTION-->
-    <section class="for-full-back color-bg-one" id="contact-sec">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1><i class="fa fa-globe faa-pulse animated  "></i>Contact</h1>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-8 col-md-offset-2 ">
-                        <h4>
-                            <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </strong>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="for-full-back color-white " id="contact-inner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 contact-cls">
-                    <h2>GET IN TOUCH</h2>
-                    <div>
-                        <span><i class="fa fa-home"></i>Address: New Your City</span>
-                        <br />
-                        <span><i class="fa fa-phone"></i>Phone: 82-230-567-899</span>
-                        <br />
-                        <span><i class="fa fa-envelope-o"></i>indo@yourdomain.com</span>
-                        <br />
-                        <span><i class="fa fa-globe"></i>www.yourdomain.com</span>
-                        <br />
-                    </div>
-                </div>
-                <div class="col-md-7">
-                    <h2>Lorem ipsum dolor sit amet</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.              
-                    </p>
-                    <form>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" required="required" placeholder="Name">
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" required="required" placeholder="Email address">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12">
-                                <div class="form-group">
-                                    <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Message"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" class="btn btn-default">Submit Request</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--END CONTACT SECTION-->
-
-    <!-- SOCIAL STATS SECTION-->
-    <section>
-        <div class="container">
-            <div class="row g-pad-bottom">
-                <div class="col-md-3 ">
-                    <div class="social-stats-div">
-                        <i class="fa fa-facebook fa-5x "></i>
-                        <h3>2000+ Followers </h3>
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="social-stats-div">
-                        <i class="fa fa-twitter fa-5x "></i>
-                        <h3>1900+ Tweets </h3>
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="social-stats-div">
-                        <i class="fa fa-google-plus fa-5x "></i>
-                        <h3>1530+ Followers </h3>
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="social-stats-div">
-                        <i class="fa fa-linkedin fa-5x "></i>
-                        <h3>3000+ Connections </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END SOCIAL STATS SECTION-->
-
-    <!--FOOTER SECTION -->
-    <div class="for-full-back color-bg-one" id="footer">
-        2014 www.yourdomain.com | All Right Reserved | Terms | Policies | Licenses 
-         
+  </div>
+  <div class="slide">
+    <div class="thumb">
+     <a href="company_testimonials.html#e">I am extremely pleased with Project Leader work on this and your team expertise and commitment that has been demonstrated whilst working on the new Vivaz dance website.</a>   
+     <figure><img src="images/test1.jpg"></figure>
+     <figcaption>Jason</figcaption>
     </div>
-    <!-- END FOOTER SECTION -->
+  </div>
+  <div class="slide">
+    <div class="thumb">
+     <a href="company_testimonials.html#f">I have been very impressed with the work Silver Touch has done for us - on a number of levels. Design has been excellent. Testing the system has been much easier as the quality of their code has been so...</a>   
+     <figure><img src="images/test1.jpg"></figure>
+     <figcaption>Steve</figcaption>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="thumb">
+     <a href="company_testimonials.html#g">I have really enjoyed working with Silver Touch Team. Your Programmers listen well and work quickly, with Skype and in uploading changes daily to my server. It makes working on...</a>   
+     <figure><img src="images/test1.jpg"></figure>
+     <figcaption>John</figcaption>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="thumb">
+     <a href="company_testimonials.html#h">Brilliant, You are so much more than a designer. I found that each step in this website makeover process connected me with the right people and experiences at just the right time. It was amazing!</a>   
+     <figure><img src="images/test1.jpg"></figure>
+     <figcaption>Ravin Bhojani</figcaption>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="thumb">
+     <a href="company_testimonials.html#i">You've done a great job for Pacifica! Thanks again for the wonderful work your team did for my website.</a> 
+     <br />
+<br />
+<figure><img src="images/test1.jpg"></figure>
+     <figcaption>Hetal</figcaption>
+    </div>
+  </div>
+  
+  <div class="slide">
+    <div class="thumb">
+     <a href="company_testimonials.html#j">This is the expression of gratitude towards the team working for the implementation of SAP from Silver Touch Technologies, which has rendered its service excellently to Divine Tree. The team has been industrious and dexterous...</a> 
+     <figure><img src="images/test1.jpg"></figure>
+     <figcaption>Robert</figcaption>
+    </div>
+  </div>
+  
+  <div class="slide">
+    <div class="thumb">
+     <a href="company_testimonials.html#k">Here with we are certifying that we are satisfied with support along with implementation procedure and project execution work of Silver Touch Technologies Ltd., their team member & seniors.</a> 
+     <figure><img src="images/test1.jpg"></figure>
+     <figcaption>Gina LaGuardia</figcaption>
+    </div>
+  </div>
+ 
+</div>
 
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY  -->
-    <script src="assets/plugins/jquery-1.10.2.js"></script>
-    <!-- BOOTSTRAP CORE SCRIPT   -->
-    <script src="assets/plugins/bootstrap.js"></script>
-    <!-- SIDE MENU SCRIPTS -->
-    <script src="assets/js/modernizr.custom.js"></script>
-    <script src="assets/js/classie.js"></script>
-    <!-- VEGAS SLIDESHOW SCRIPTS -->
-    <script src="assets/plugins/vegas/jquery.vegas.min.js"></script>
-    <!-- CUSTOM SCRIPTS -->
-    <script src="assets/js/custom.js"></script>
+<div class="clear"></div>
 
+<div class="np">
+<ul>
+<li><a href="#"><img src="images/n.gif" width="29" height="29" /></a></li>
+<li><a href="#"><img src="images/p.gif" width="29" height="29" /></a></li>
+</ul>
+</div>
+
+</div>
+</div>
+<div class="clear"></div>
+
+<div class="strp"></div>
+
+<div class="clear"></div>
+
+
+<div class="clear"></div>
+<div class="strp"></div>
+
+<div class="btm1">
+<div class="wrapper">
+<div class="btm1a">
+<div class="btmh">Quick links</div>
+
+<div class="left">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="company_aboutus.html">About Us</a></li>
+<li><a href="services_application-management.html">Services</a></li>
+<li><a href="technologies_mobile-platforms.html">Technologies</a></li>
+</ul>
+</div>
+
+<div class="right">
+<ul>
+<li><a href="solutions_technology-n-virtualization.html">Solutions</a></li>
+<li><a href="industry-verticals_automobile.html">Industry Verticals</a></li>
+<li><a href="contactus.html">CONTACT US</a></li>
+</ul>
+</div>
+
+</div>
+
+
+<div class="btm1b">
+
+<div class="btm1c">
+<div class="btmh">subscribe newsletter</div>
+
+<form method="post" action="contact.php">
+<div class="form">
+<input name="Enter your email address" value="Enter your email address" onblur="if(this.value==''){this.value='Enter your email address';}return true;" onfocus="if(this.value=='Enter your email address'){this.value='';}return true;" id="Name" class="tffiled" /><img src="images/news.gif" width="35" height="33" class="sub" /></div>
+</form>
+
+<div class="clear"></div>
+
+<div class="fbar2">
+<ul>
+<li><a href="https://www.facebook.com/DevOpsRealtimetech/" target="_blank" class="fb2"></a></li>
+<li><a href="https://twitter.com/DevOpsRealtimetech" target="_blank" class="tw2"></a></li>
+<li><a href="https://www.linkedin.com/in/DevOpsRealtime" target="_blank" class="in2"></a></li>
+<li><a href="#" class="yt2"></a></li>
+</ul>
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+<div class="clear"></div>
+
+<div class="btm2">Copyright  © 2020 DevOpsRealtime Communication Pvt Ltd. - All Rights Reserved. </div>
 </body>
 </html>
 
