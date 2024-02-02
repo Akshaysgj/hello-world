@@ -45,7 +45,7 @@ button {
 </style>   
 </head>    
 <body>    
-    <center> <h1> Student Login Form </h1> </center>   
+    <center> <h1> Student/Graduation Login Form </h1> </center>   
     <form>  
         <div class="container">   
             <label>Enter Username : </label>   
@@ -53,7 +53,7 @@ button {
             <label>Enter Password : </label>   
             <input type="password" placeholder="Enter Password" name="password" required>  
             <button type="submit">Login</button>   
-            <input type="checkbox" checked="checked"> Remember me   
+            <input type="checkbox" checked="checked"> I don't know you   
             <button type="button" class="cancelbtn"> Cancel</button>   
             Forgot <a href="#"> password? </a>   
         </div>   
